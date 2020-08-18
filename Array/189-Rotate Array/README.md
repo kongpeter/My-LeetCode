@@ -26,3 +26,30 @@ rotate 1 steps to the right: [99,-1,-100,3]
 rotate 2 steps to the right: [3,99,-1,-100]
 ```
 
+**Solution**
+
+```java
+class Solution {
+    public void rotate(int[] nums, int k) 
+    {
+        int length = nums.length;
+        int shift = k % length;
+
+        reverse(nums, 0, length - 1);
+        reverse(nums, 0, shift - 1);
+        reverse(nums, shift, length - 1);
+    }
+
+    public void reverse(int[] nums, int start, int end)
+    {
+        while(start < end)
+        {
+            int temp = nums[start];
+            nums[start] = nums[end];
+            nums[end] = temp;
+            start++;
+            end--;
+        }
+    }
+}
+```
