@@ -14,3 +14,16 @@ Kid 3 has 5 candies and this is already the greatest number of candies among the
 Kid 4 has 1 candy and even if he or she receives all extra candies will only have 4 candies. 
 Kid 5 has 3 candies and if he or she receives at least 2 extra candies will have the greatest number of candies among the kids.
 ```
+
+
+**Example 2**
+```
+Input: candies = [4,2,1,1,2], extraCandies = 1
+Output: [true,false,false,false,false] 
+Explanation: There is only 1 extra candy, therefore only kid 1 will have the greatest number of candies among the kids regardless of who takes the extra candy.
+```
+
+
+**Solution**
+
+
