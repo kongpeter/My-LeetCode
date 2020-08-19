@@ -26,4 +26,29 @@ Explanation: There is only 1 extra candy, therefore only kid 1 will have the gre
 
 **Solution**
 
+````java
+class Solution {
+    public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
+        int length = candies.length;
+        int maxCandy = 0; //Find the maximum candy
+
+        for(int i=0;i<length;i++)
+        {
+            if(candies[i] > maxCandy)
+                maxCandy = candies[i];
+        }
+
+        List<Boolean> set = new ArrayList<Boolean>();
+        for(int i=0;i<length;i++)
+        {
+            if(candies[i]+extraCandies >= maxCandy) //Compare one by one
+                set.add(true);
+            else
+                set.add(false);
+        }
+
+        return set; 
+    }
+}
+````
 
