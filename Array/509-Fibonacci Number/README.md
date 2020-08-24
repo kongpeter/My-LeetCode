@@ -1,4 +1,4 @@
-# 509 - Fibonacci numbers
+# Fibonacci numbers
 
 ## Question
 
