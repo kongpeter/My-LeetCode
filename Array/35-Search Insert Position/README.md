@@ -1,4 +1,4 @@
-# 35 - Search Insert Position
+# Search Insert Position
 
 ## Question
 
