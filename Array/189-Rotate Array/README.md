@@ -1,4 +1,4 @@
-# 189 - Rotate Array
+# Rotate Array
 
 ## Question
 
