@@ -1,4 +1,4 @@
-# 217 - Contain Duplicates
+# Contain Duplicates
 
 ## Question
 
