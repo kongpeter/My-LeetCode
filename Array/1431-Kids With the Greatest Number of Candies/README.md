@@ -1,4 +1,4 @@
-# 1431 - Kids with the Greatest Number of Candies
+# Kids with the Greatest Number of Candies
 
 ## Question
 
